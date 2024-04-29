@@ -3,12 +3,12 @@ The objective of this project is to predict the gender of a subject based on its
 
 ##  Model
 The first step is to transform the words into vectors by using an embedding. In this case, the embedding 
-*fr\_core\_news\_lg* was used. Once all words are embedded, the next step is to perform an average 
-of all the vectors in the phrase to obtain a the centroid, this is done aiming to later measure the distance 
+*fr\_core\_news\_lg* from `spacy' was used. Once all words are embedded, the next step is to perform an average 
+of all the vectors in the phrase to obtain a centroid, this is done aiming to later measure the distance 
 from the target labels. The figure below shows the different points in the 
-embedding space, for which the distance from the target labels `homme’ and `femme’ were calculated. 
+embedding space, for which the distance from the target labels "homme" and "femme" needs to be calculated. 
 The classification is done by proximity, so if we find that the centroid is closer to ‘homme’ than ‘femme’ 
-it will classified as ‘homme’, and viceversa. 
+it will classified as "homme", and viceversa. 
 
 ![Project Image](scheme.png)
 
