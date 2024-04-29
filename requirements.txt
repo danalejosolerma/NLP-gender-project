@@ -1,0 +1,5 @@
+spacy
+typing_extensions<4.6.0
+install scikit-learn
+matplotlib
+numpy
