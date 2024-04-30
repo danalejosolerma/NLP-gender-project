@@ -7,8 +7,8 @@ The first step is to transform the words into vectors by using an embedding. In 
 of all the vectors in the phrase to obtain a centroid, this is done aiming to later measure the distance 
 from the target labels. The figure below shows the different points in the 
 embedding space, for which the distance from the target labels "homme" and "femme" needs to be calculated. 
-The classification is done by proximity, so if we find that the centroid is closer to ‘homme’ than ‘femme’ 
-it will classified as "homme", and viceversa. 
+The classification is done by proximity, so if we find that the centroid is closer to "homme" than "femme" 
+it will classified as "homme", and vice versa. 
 
 ![Project Image](scheme.png)
 
