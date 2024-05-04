@@ -10,6 +10,6 @@ embedding space, for which the distance from the target labels "homme" and "femm
 The classification is done by proximity, so if we find that the centroid is closer to "homme" than "femme" 
 it will classified as "homme", and vice versa. 
 
-![Project Image](scheme.png)
+![Project Image](data_S3.png)
 
 This method was inspired by the job done in https://maxhalford.github.io/blog/unsupervised-text-classification/
